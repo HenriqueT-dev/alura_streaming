@@ -150,4 +150,58 @@ a{
 }
 .botao:hover{
     background-color: #3c92fa;
-}
+} 
+@media screen and (max-width: 768px){
+    .container{
+        display: block;
+        background-image: none;
+        margin-bottom: 4em;
+    }
+    .img_combo{
+        width: 50vw;
+    }
+    .img_plataformas{
+        width: 50vw;
+        margin: 0;
+    }
+    .secundario{
+        margin: 0;
+        text-align: center;
+        height: auto;
+        margin-bottom: 4em;
+    }
+    .container__h2{
+        font-size: 28px;
+        margin-bottom: 0.5em;
+    }
+    .terciario{
+        margin: 0;
+        text-align: center;
+        height: auto;
+        margin-bottom: 6em;
+    }
+    .img__telas{
+        width: 60vw;
+    }
+    .quarto{
+        margin: 0;
+        text-align: center;
+        height: auto;
+        margin-top: 50px;
+        margin-bottom: 4em;
+    }
+    .dispositivos{
+        margin-bottom: 4em;
+    }
+    .img__notebook{
+        width: 70vw;
+    }
+    .dispositivos__lista{
+        display: block;
+    }
+    .dispositivos__titulo{
+        font-size: 28px;
+    }
+    .rodape__lista{
+        display: block;
+    }
